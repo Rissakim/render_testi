@@ -14,3 +14,21 @@ Content-Type: application/json
     "name": "Juuso Pajunen",
     "number": "0800112233"
 }
+
+###
+GET https://phonebook-we6x.onrender.com/api/persons
+
+###
+GET https://phonebook-we6x.onrender.com/api/persons/3
+
+###
+DELETE  https://phonebook-we6x.onrender.com/api/persons/3
+
+###
+POST https://phonebook-we6x.onrender.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "Juuso Pajunen",
+    "number": "0800112233"
+}
